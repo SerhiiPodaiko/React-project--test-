@@ -1,0 +1,41 @@
+header {
+    background: #F44336;
+}
+
+.logo img {
+    height: 75px;
+    background: transparent;
+    transition: .4s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(0.9);
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    padding: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #D5302F;
+}

@@ -1,0 +1,46 @@
+.documentation {
+    padding: 20px 0;
+}
+
+.documentation h2 {
+    margin: 20px 0;
+    color: #515f66;
+}
+
+.documentation p {
+    color: #8D8D8D;
+}
+
+.documentation button {
+    padding: 8px 50px;
+    border: none;
+    outline: none;
+    background: #D5302F;
+    color: #fff;
+    transition: .4s ease-in-out;
+}
+
+.documentation button:hover {
+    background: transparent;
+    border: 1px solid #D5302F;
+    color: #D5302F;
+}
+
+.documentation .apiBox {
+    border: 2px solid #000;
+    padding: 10px 0 10px 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+.documentation .apiBox:hover {
+    transform: scale(0.9);
+}
+
+.documentation .loading {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}

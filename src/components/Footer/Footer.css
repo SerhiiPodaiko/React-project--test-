@@ -1,0 +1,26 @@
+footer {
+    background: #263238;
+    padding: 30px 0;
+}
+
+.learn {
+    font-size: 18px;
+    color: #fff;
+}
+
+.learn img {
+    transition: .4s ease-in-out;
+}
+
+.learn img:hover {
+    transform: rotate(25deg);
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
